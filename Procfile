@@ -1,1 +1,1 @@
-worker: python "auction bot.py"
+worker: python auction_bot_final.py
