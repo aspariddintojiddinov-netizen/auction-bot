@@ -4,7 +4,8 @@ from datetime import datetime, timedelta
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = "8986359963:AAFe1v3aNp6ASkcPKD5Qozi8FSyjWaCa5C4"
+BOT_TOKEN = import os; BOT_TOKEN = os.environ.get("BOT_TOKEN", "8986359963:AAFe1v3aNp6ASkcPKD5Qozi8FSyjWaCa5C4")
+
 ADMIN_IDS = [8575593397]
 
 TEXTS = {
